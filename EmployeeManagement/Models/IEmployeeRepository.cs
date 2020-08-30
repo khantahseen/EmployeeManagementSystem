@@ -9,8 +9,8 @@ namespace EmployeeManagement.Models
     {
         List<Employee> SelectAllEmployees();
         Employee GetEmployeeById(int id);
-        void AddEmployee(Employee emp);
-        void EditEmployee(Employee emp);
+        Employee AddEmployee(Employee emp);
+        Employee EditEmployee(int id,Employee emp);
         void DeleteEmployee(int id);
     }
 }

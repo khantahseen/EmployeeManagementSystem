@@ -22,6 +22,8 @@ namespace EmployeeManagement.Models
         [Required]
         public string Qualification { get; set; }
         [Required]
-        public int ContactNumber { get; set; }
+        public long ContactNumber { get; set; }
+        public int DepartmentID { get; set; }
+        public Department department { get; set; }
     }
 }

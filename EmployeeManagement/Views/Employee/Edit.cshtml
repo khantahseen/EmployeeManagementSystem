@@ -42,6 +42,15 @@
                 <span asp-validation-for="ContactNumber" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="department.DepartmentName" class="control-label"></label>
+                <select asp-for="DepartmentID" class="form-control">
+                    @foreach (var i in ViewBag.DepName)
+                    {
+                        <option value="@i.DepartmentID">@i.DepartmentName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

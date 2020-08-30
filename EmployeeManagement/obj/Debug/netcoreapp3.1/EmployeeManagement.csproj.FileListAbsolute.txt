@@ -388,9 +388,6 @@ C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\ru\Microso
 C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
-C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.pdb
@@ -405,3 +402,12 @@ C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Department\Create.cshtml.g.cs
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Department\Edit.cshtml.g.cs
 C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Department\Delete.cshtml.g.cs
+C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\asus\source\repos\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\source\repos\EmployeeManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

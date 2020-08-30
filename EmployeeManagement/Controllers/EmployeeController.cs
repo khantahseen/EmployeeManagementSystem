@@ -11,6 +11,7 @@ namespace EmployeeManagement.Controllers
     public class EmployeeController : Controller
     {
         EmployeeRepository e = new EmployeeRepository();
+        DepartmentRepository dep = new DepartmentRepository();
         // GET: EmployeeController
         public ActionResult Index()
         {
@@ -28,6 +29,7 @@ namespace EmployeeManagement.Controllers
         // GET: EmployeeController/Create
         public ActionResult Create()
         {
+            //ViewBag.DepName = dep.SelectDepartment();
             return View();
         }
 
@@ -50,6 +52,7 @@ namespace EmployeeManagement.Controllers
         // GET: EmployeeController/Edit/5
         public ActionResult Edit(int id)
         {
+            ViewBag.DepName = dep.SelectDepartment();
             Employee obj = e.GetEmployeeById(id);
             return View(obj);
         }
@@ -61,7 +64,7 @@ namespace EmployeeManagement.Controllers
         {
             try
             {
-                e.EditEmployee(emp);
+                e.EditEmployee(id,(Employee)emp);
                 return RedirectToAction("Index");
             }
             catch

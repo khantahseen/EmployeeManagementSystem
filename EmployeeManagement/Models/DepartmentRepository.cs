@@ -17,14 +17,14 @@ namespace EmployeeManagement.Models
             return DepartmentList.GetDepartmentList().Find(x => x.DepartmentID == id);
         }
 
-        public void AddDepartment(Models.Department dep)
+        public Department AddDepartment(Models.Department dep)
         {
-            DepartmentList.AddToDepartmentList(dep);
+            return DepartmentList.AddToDepartmentList(dep);
         }
 
-        public void EditDepartment(Models.Department dep)
+        public Department EditDepartment(int id,Models.Department dep)
         {
-            DepartmentList.EditInDepartmentList(dep);
+            return DepartmentList.EditInDepartmentList(id,dep);
         }
 
         public void DeleteDepartment(int id)

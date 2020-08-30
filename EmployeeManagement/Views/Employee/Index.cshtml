@@ -31,6 +31,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ContactNumber)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.department.DepartmentName)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -56,7 +59,10 @@
                 @Html.DisplayFor(modelItem => item.ContactNumber)
             </td>
             <td>
-               
+                @Html.DisplayFor(modelItem => item.department.DepartmentName)
+            </td>
+            <td>
+
                 @Html.ActionLink("Edit", "Edit", new { id = item.EmployeeID }) |
                 @Html.ActionLink("Details", "Details", new { id = item.EmployeeID }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.EmployeeID })

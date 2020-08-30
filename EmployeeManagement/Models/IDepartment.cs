@@ -9,8 +9,8 @@ namespace EmployeeManagement.Models
     {
         List<Department> SelectDepartment();
         Department GetDepartmentById(int id);
-        void AddDepartment(Department dep);
-        void EditDepartment(Department dep);
+        Department AddDepartment(Department dep);
+        Department EditDepartment(int id,Department dep);
         void DeleteDepartment(int id);
     }
 }

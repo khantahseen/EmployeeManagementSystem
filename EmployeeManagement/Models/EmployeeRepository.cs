@@ -7,24 +7,24 @@ namespace EmployeeManagement.Models
 {
     public class EmployeeRepository: IEmployeeRepository
     {
-        public List<Models.Employee> SelectAllEmployees()
+        public List<Employee> SelectAllEmployees()
         {
             return EmployeeList.GetEmployeeList();
         }
 
-        public Models.Employee GetEmployeeById(int id)
+        public Employee GetEmployeeById(int id)
         {
             return EmployeeList.GetEmployeeList().Find(x => x.EmployeeID == id);
         }
 
-        public void AddEmployee(Models.Employee emp)
+        public Employee AddEmployee(Employee emp)
         {
-            EmployeeList.AddToList(emp);
+            return EmployeeList.AddToList(emp);
         }
 
-        public void EditEmployee(Models.Employee emp)
+        public Employee EditEmployee(int id, Employee emp)
         {
-            EmployeeList.EditInList(emp);
+            return EmployeeList.EditInList(id, emp);
         }
 
         public void DeleteEmployee(int id)

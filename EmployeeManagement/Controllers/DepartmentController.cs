@@ -62,7 +62,7 @@ namespace EmployeeManagement.Controllers
         {
             try
             {
-                d.EditDepartment(dep);
+                d.EditDepartment(id, (Department)dep);
                 return RedirectToAction("Index");
             }
             catch
